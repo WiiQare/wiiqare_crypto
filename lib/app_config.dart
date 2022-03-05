@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 // ignore: avoid_classes_with_only_static_members
 
-// Abhishek you have to change this, i put it for test.
+// Abhishek you have to change this, i put it for
 class AppConfig {
   static Map<NetworkType, AppConfigParams> networks =
       <NetworkType, AppConfigParams>{
@@ -28,7 +28,23 @@ class AppConfig {
       icon: WalletIcons.ethereum,
       label: 'Ethereum (Ropsten)',
     ),
-   
+    NetworkType.BSC: AppConfigParams(
+      'https://data-seed-prebsc-1-s1.binance.org:8545',
+      '0x73434bb95eC80d623359f6f9d7b84568407187BA',
+      symbol: 'BNB',
+      faucetUrl: 'https://testnet.binance.org/faucet-smart',
+      enabled: true,
+      label: 'Binance Chain (BSC)',
+    ),
+    NetworkType.Matic: AppConfigParams(
+      'https://rpc-mumbai.maticvigil.com',
+      '0x73434bb95eC80d623359f6f9d7b84568407187BA',
+      web3RdpUrl: 'wss://ws-mumbai.matic.today',
+      symbol: 'MATIC',
+      faucetUrl: 'https://faucet.matic.network',
+      enabled: true,
+      label: 'Matic (Mumbai)',
+    )
   };
 }
 
