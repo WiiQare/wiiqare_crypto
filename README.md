@@ -1,16 +1,19 @@
-# wiiqare_crypto
+# WiiQare ETH wallet
 
-A new Flutter project.
+## How to install
 
-## Getting Started
+- Install [Flutter](https://docs.flutter.dev/get-started/install) and all its dependencies
+- Clone this repository (`git clone https://github.com/WiiQare/wiiqare_crypto.git`)
+- Open your terminal and navigate to the cloned directory
+- Connect your Android phone with 'USB debugging' mode enabled
+- Run the app using `flutter run`
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<img src="assets/screenshots/home.png" height=500/>
+<img src="assets/screenshots/receive.png" height=500/>
+<img src="assets/screenshots/send.png" height=500/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Credit
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is a clone of another Flutter project - [https://github.com/allanclempe/ether-wallet-flutter](https://github.com/allanclempe/ether-wallet-flutter)

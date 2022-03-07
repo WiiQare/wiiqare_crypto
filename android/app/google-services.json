@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "833008672662",
+    "project_id": "wiiqare-crypto",
+    "storage_bucket": "wiiqare-crypto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833008672662:android:d312d77dd99e1c02ac07b7",
+        "android_client_info": {
+          "package_name": "com.example.wiiqare_crypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833008672662-ntlhrlcktcv8m9o6hfonan8hg6ob0ovn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf1wEGHbxXwDu81821-j4f61B3_N4e488"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833008672662-ntlhrlcktcv8m9o6hfonan8hg6ob0ovn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "833008672662-k7fojkjmv9la6s3ehdf5ors1euoemh5p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wiiware.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
